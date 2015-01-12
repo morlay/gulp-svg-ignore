@@ -1,0 +1,31 @@
+{
+  "name": "gulp-svg-ignore",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js -R spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "lodash": "^2.4.1",
+    "map-stream": "0.0.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morlay/gulp-svg-ignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morlay/gulp-svg-ignore/issues"
+  },
+  "homepage": "https://github.com/morlay/gulp-svg-ignore",
+  "description": "Just for removing the layers of svg sources"
+}
